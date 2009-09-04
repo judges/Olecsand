@@ -1,0 +1,112 @@
+/* Edited with EditCSS */
+/**** LINK-tag style sheet style.css ****/
+
+/* Layout ******************/
+
+body {
+  position: relative;
+  margin: 0 0;
+  margin-left:10px;
+  -x-system-font:none;
+}
+
+
+#title h1 {
+  line-height: 2.5em;
+  margin: 0; padding: 0 0.5em;
+}
+
+#sections {
+  position: absolute;
+  right: 0; top: 0;
+  height: 100%; width: 326px;
+}
+
+#sections ul {
+  list-style: none;
+  margin: 0.75em; padding: 0;
+}
+
+#sections li {
+  margin: 0.4em 0; padding: 0;
+}
+
+#sections li a {
+  display: block;
+}
+
+#content {
+  height:100%;
+}
+
+
+#sections h2,
+#news h2 {
+  text-align: left;
+  color: white;
+  font-size: 12px;
+  margin-left:5px;
+}
+
+#main {
+  margin: 5px; padding: 0 0.5em;
+  float: left;
+  width:70%;
+  height:90%;
+  overflow:auto;
+  position: absolute;
+}
+
+html, div, map, dt, isindex, form {
+display:block;
+}
+/* Fonts *******************/
+
+body {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+h2 {
+  font-size: 130%;
+  text-transform: uppercase; letter-spacing: 1px;
+}
+
+#search,
+#news p,
+#news h3 {
+  font-size: 85%;
+}
+
+#search input,
+#search button {
+  font-size: 100%;
+}
+
+#sections ul {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+#sections ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+#sections h2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+#meta {
+  font-size: 85%;
+}
+
+/* Colors ******************/
+#sections {
+  background:  url(/images/bg_R.gif) left center repeat-y;
+}
+
+
+
